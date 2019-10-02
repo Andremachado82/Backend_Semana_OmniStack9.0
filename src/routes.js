@@ -15,5 +15,5 @@ export default function Routes(){
         <Route path="/new" component={New} />
       </Switch>
     </BrowserRouter>
-  )
+  );
 } 

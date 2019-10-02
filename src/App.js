@@ -3,7 +3,7 @@ import './App.css';
 
 import logo from './assets/logo.svg';
 
-import Routes from './routes'
+import Routes from './routes';
 
 function App() { 
   return (
@@ -11,8 +11,7 @@ function App() {
       <img src={logo} alt="AirCnC"/>
 
       <div className="content">
-        <Routes />
-        
+        <Routes />        
       </div>
     </div>    
   );
