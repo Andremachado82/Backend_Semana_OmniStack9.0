@@ -18,13 +18,13 @@ export default function Login({ history }) {
 
   return (
     <>
-    <p>
-          Ofereça <strong>spots</strong> para progrmadores e encontre <strong>talentos</strong> para sua empresa
-        </p>
+      <p>
+        Ofereça <strong>spots</strong> para progrmadores e encontre <strong>talentos</strong> para sua empresa
+      </p>
 
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="email">E-MAIL *</label>
-            <input 
+      <form onSubmit={handleSubmit}>
+        <label htmlFor="email">E-MAIL *</label>
+          <input 
             id="email"
             type="email"           
             placeholder="Seu melhor e-mail"
@@ -33,7 +33,7 @@ export default function Login({ history }) {
           />
 
           <button className="btn" type="submit" >Entrar</button>
-          </form>
-        </>
+        </form>
+    </>
   );
 }
